@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+}
+body.home{
+    background-image: url(a1.jpg);
+    background-size: cover;
+}
+body.profil{
+    background-image: url(b1.jpg);
+    background-size: cover;
+}
+body.visi{
+    background-image: url(b2.jpg);
+    background-size: cover;
+}
+body.contact{
+    background-image: url(S.png);
+    background-size: cover;
+}
+body.daftar{
+    background-image: url(b3.jpg);
+    background-size: cover;
+}
+
+  section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+  }
+  header{
+    position: relative;
+    top: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header .logo{
+    position: relative;
+    color: #000;
+    font-size: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 1px;
+  }
+  header .nav a{
+    color: #000;
+    background: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 2px 15px;
+    border-radius: 20px;
+    transition: 0.3s;
+    transition-property: background;
+  }
+  header .nav a:not(:last-child){
+    margin-right: 30px;
+  }
+  header .nav a:hover{
+    background: #fff;
+  }
+  .container{
+    max-width: 740px;
+    margin: 60px 100px;
+  }
+  .container .info h1{
+    font-size: 55px;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+    line-height: 60px;
+    margin-bottom: 30px;
+  }
+  .container .info h1 span{
+    color: #fff;
+    font-size: 50px;
+    font-weight: 600;
+  }
+  .container .info p{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 40px;
+    color:white;
+  }
+  .sosmed{
+    max-width: 650px;
+    margin: 60px 100px;
+  }
+  .sosmed .contact p{
+    font-size: 16px;
+    font-weight: 500px;
+    margin-bottom: 40px;
+    color: #000;
+  }
+  .sosmed .contact b{
+    color: blue;
+  }
+button.gradient{
+  background-image: linear-gradient( rgb(62, 254, 45), rgb(255, 243, 6));
+  color: #fff;
+}
+.panel{
+  max-width: 650px;
+  margin: 60px 100px;
+}
+.panel.heading p{
+  font-size: 16px;
+  font-weight: 500px;
+  color: rgb(0, 0, 0);
+}
+.panel b{
+  color: rgb(4, 33, 255);
+}
+strong{
+  color: blue;
+}
+.container-panel{
+  max-width: 650px;
+  margin: 60px 100px;
+}
+.regis table{
+  background-image: url(c1.jpg);
+  position: relative;
+  margin:60px 100px ;
+  top: -80px;
+  text-align: left;
+  color: rgb(0, 8, 255);
+  font-style: italic;
+  width: 400px;
+  height: 240px;
+}
